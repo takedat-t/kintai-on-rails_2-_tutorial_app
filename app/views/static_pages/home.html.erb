@@ -1,5 +1,45 @@
-<% provide(:title, "ホーム") %>
-<div class="center jumbotron">
-  <h1>勤怠管理システム</h1>
-  <%= link_to "アカウント作成", '#', class: "btn btn-lg btn-primary" %>
+ <% provide(:title, "ホーム") %>
+<div class="container">
+ <div class="jumbotron">
+  <div class="body">
+   <div class="center">
+    <table class = "table-bordered  table-condensed">
+      <tr>
+        <th>トイレットペーパー</th>
+        <th class="count">20</th>
+        <th>
+          <div class="btn increase">+</div>
+        </th>
+        <th>
+          <div class="btn decrease">−</div>
+        </th>
+        <th>
+          <div class="btn edit-btn">編集</div>
+        </th>
+        <th>
+          <div class="btn delete-btn">削除</div>
+        </th>
+        
+      </tr>
+      <tr>
+        <th>マスク</th>
+        <th class="count">100</th>
+        <th>
+          <div class="btn increase">+</div>
+        </th>
+        <th>
+          <div class="btn decrease">−</div>
+        </th>
+        <th>
+          <div class="btn edit-btn">編集</div>
+        </th>
+        <th>
+          <div class="btn delete-btn">削除</div>
+        </th>
+        
+      </tr>
+    </table>
+   </div>
+  </div>
+ </div>
 </div>

@@ -13,3 +13,34 @@
  *= require_tree .
  *= require_self
  */
+/*在庫一覧(index)ページ*/
+.body {
+  background: white;
+}
+.btn {
+  height: 49px;
+  padding-top: 10px;
+}
+.count {
+  background: #66FF33;
+  color: white;
+  font-size: 25px;
+}
+.increase {
+  font-size: 20px;
+  background: yellow;
+  color: black;
+}
+.decrease {
+  font-size: 20px;
+  background: red;
+  /*color: black;*/
+}
+.edit-btn {
+  background: #DDFFFF;
+  color: gray;
+}
+.delete-btn {
+  background: #DDFFFF;
+  color: gray;
+}
